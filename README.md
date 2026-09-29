@@ -1,10 +1,13 @@
 # SystemScope Contracts
 
-Shared contracts for [SystemScope](https://github.com/SystemScopeLabs/systemscope), a
-deterministic discrete-event simulation runtime. The `systemscope` repository consumes this
-crate; nothing here depends on a particular simulation backend.
+Shared contracts for [SystemScope](https://github.com/SystemScopeLabs/systemscope), a modular
+computer-systems simulation, verification, and observability platform.
 
-`systemscope-contracts` defines the types every component and tool agrees on:
+`systemscope-contracts` defines the stable boundary shared by SystemScope components,
+backends, and tooling. The `systemscope` repository consumes this crate; nothing here depends
+on a particular simulation backend.
+
+It covers:
 
 - time: ticks, clock domains, durations, frequencies
 - events: phases, event keys, scheduling
