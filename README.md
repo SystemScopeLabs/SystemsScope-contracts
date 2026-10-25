@@ -37,3 +37,7 @@ cargo test --workspace --doc --locked
 ```
 
 The toolchain is pinned in `rust-toolchain.toml`.
+
+## License
+
+The contracts are licensed under the [MIT License](LICENSE).
