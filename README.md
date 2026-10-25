@@ -1,6 +1,6 @@
 # SystemScope Contracts
 
-Shared contracts for [SystemScope](https://github.com/SystemScopeLabs/systemscope), a modular
+Shared contracts for [SystemScope](https://github.com/SystemScopeLabs/SystemScope), a modular
 computer-systems simulation, verification, and observability platform.
 
 `systemscope-contracts` defines the stable boundary shared by SystemScope components,
